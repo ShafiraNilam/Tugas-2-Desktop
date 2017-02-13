@@ -22,7 +22,7 @@ namespace Asp_mvc_2.Controllers
             return View(); 
         }
         public ActionResult LogIn() { 
-            return View(); 
+            return View();
         } 
         [HttpPost] 
         public ActionResult LogIn(UserLoginView ULV, string returnUrl) {
